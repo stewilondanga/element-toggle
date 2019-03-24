@@ -39,14 +39,14 @@ const tags = {
  &nbsp; Result: <i>Italic</i>
  &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Full Reference</a>`
 };
-/*let indexes = [];
+let indexes = [];
 $(document).ready(function() {
   $.each(tags, (key, val) => {
     indexes.push(key);
     $('#app').append('<div class="element he" data-clickedon="false">' + key + '</div>');
   });
   $('.element').dblclick(function() {
-    if($(this).data('clickedon') == 'false') {
+    if ($(this).data('clickedon') == 'false') {
       $(this)
         .data('clickedon', 'true')
         .animate({
