@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*const tags = {
+const tags = {
   'a': `The anchor tag.
         You can use it to make links.<br><br>
         Attributes: <strong>(includes global attributes)</strong>
@@ -39,7 +39,7 @@ var navigate = (function() {
  &nbsp; Result: <i>Italic</i>
  &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Full Reference</a>`
 };
-let indexes = [];
+/*let indexes = [];
 $(document).ready(function() {
   $.each(tags, (key, val) => {
     indexes.push(key);
