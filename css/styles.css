@@ -37,10 +37,11 @@ body {
   margin: 5px;
 }
 
-/*.he::before {
+.he::before {
   content: '<';
 }
-.he::after {
+
+/*.he::after {
   content: '>';
 }
 
