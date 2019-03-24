@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,37 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  background-color: blue;
+}
+
+.element {
+  background-color: lime;
+  border-radius: 20px;
+  color: blue;
+  padding: 12px;
+  margin: 7px;
+  font-size: 1.2em;
+  font-family: monospace;
+  width: 97%;
+}
+
+#click {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: lime;
+  font-size: 1.2em;
+  display: block;
+  margin: 5px;
+}
+
+.he::before {
+  content: '<';
+}
+.he::after {
+  content: '>';
 }
 
 .containers {
