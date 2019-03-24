@@ -28,7 +28,6 @@ body {
   width: 97%;
 }
 
-/*
 #click {
   font-family: Calibri, Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -38,7 +37,7 @@ body {
   margin: 5px;
 }
 
-.he::before {
+/*.he::before {
   content: '<';
 }
 .he::after {
