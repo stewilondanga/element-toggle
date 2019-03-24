@@ -41,11 +41,11 @@ body {
   content: '<';
 }
 
-/*.he::after {
+.he::after {
   content: '>';
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
